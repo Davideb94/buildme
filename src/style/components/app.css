@@ -1,0 +1,29 @@
+.container{
+
+  height: 100%;
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  z-index: 0;
+
+}
+
+.container .scroller{
+
+  height: 70%;
+  width: 100%;
+  background: #F5F5F5;
+  z-index: 10;
+
+}
+
+.container .panel{
+
+  height: 30%;
+  width: 100%;
+  background: pink;
+  z-index: 100;
+
+}
